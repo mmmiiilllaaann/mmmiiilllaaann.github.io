@@ -1,4 +1,9 @@
 /* Set header to fixed position while scrolling */
+body {
+  width: 100%
+  height: auto;
+}
+
 header {
   font-family: Arial, Helvetica, sans-serif;
   color: #ff0000
