@@ -5,12 +5,12 @@ body {
 }
 
 header {
+  position: fixed;
   font-family: Arial, Helvetica, sans-serif;
   color: #ff0000
 }
 
 .header-nav {
-  position: fixed;
   width: 100%;
   height: auto;
  }
