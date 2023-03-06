@@ -1,11 +1,9 @@
 /* Set header to fixed position while scrolling */
 header {
-  position: fixed;
-  width: 100%;
   font-family: Arial, Helvetica, sans-serif;
   color: #ff0000
-
 }
+
 .header-nav {
   position: fixed;
   width: 100%;
