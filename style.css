@@ -21,6 +21,7 @@ header {
   height: auto;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
   display: inline-block;
+  padding: 30px
 }
 
 .video {
