@@ -1,6 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+  
 body {
   width: 100%
-  height: auto;
 }
 
 header {
@@ -9,10 +13,10 @@ header {
   color: #ff0000
 }
 
-.header-nav {
+.nav {
+  position: relative;
   width: 100%;
-  height: auto;
- }
+}
 
 .video-container {
   position: absolute;
@@ -22,10 +26,7 @@ header {
 }
 
 .video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
   width: 100%;
   height: auto;
 }
