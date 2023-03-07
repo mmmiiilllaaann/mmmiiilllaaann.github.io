@@ -1,25 +1,21 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-  
-body {
-  width: 100%
+/* Set header to fixed position while scrolling */
+html, body {
+    height: 100%;
+    width:100%;
+    margin: 0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff0000
 }
 
 header {
-  position: fixed;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #ff0000
-}
-
-.nav {
   position: relative;
   width: 100%;
+  /* Add any other styling you need for your header */
 }
 
 .video-container {
-  position: absolute;
+  position: relative;
   width: 100%;
   height: auto;
   padding-bottom: 56.25%; /* 16:9 aspect ratio */
@@ -27,6 +23,14 @@ header {
 
 .video {
   position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
   height: auto;
+}
+
+.footer {
+  position: absolute
+  width: 100%;
 }
